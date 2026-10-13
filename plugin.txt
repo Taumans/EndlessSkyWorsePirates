@@ -1,0 +1,10 @@
+name "Worse Pirates"
+version 1.0.0
+authors
+	Tau
+tags
+	ships
+about "Pirates are bad at things and their ships are bad."
+about "Want a pristine hull? Go buy one."
+about "https://github.com/Taumans/EndlessSkyWorsePirates"
+about "plugins"

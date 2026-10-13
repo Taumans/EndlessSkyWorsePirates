@@ -1,0 +1,215 @@
+ship "Sparrow" "Sparrow (Pirate)"
+	add attributes
+		"self destruct" 0.1
+		"drag" .2
+		"heat dissipation" -0.1
+		"cost" -100000
+	outfits
+		"Gatling Gun" 2
+		"Gatling Gun Ammo" 6000
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		"Hyperdrive"
+		"Nerve Gas"
+	gun "Gatling Gun"
+		angle -4
+	gun "Gatling Gun"
+		angle 2
+
+ship "Hawk" "Hawk (Pirate)"
+	add attributes
+		"self destruct" 0.1
+		"drag" .5
+		"fuel capacity" 113
+		"cost" -400000
+	outfits
+		"Heavy Rocket Launcher"
+		"Heavy Rocket" 20
+		"RT-I Radiothermal"
+		"Supercapacitor" 2
+		"D14-RN Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		"Nerve Gas"
+	gun -8.5 -17.5
+		angle 1
+
+ship "Fury" "Fury (Pirate)"
+	add attributes
+		"self destruct" 0.1
+		"drag" .1
+		"cost" -200000
+	outfits
+		"Energy Blaster" 6
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Chipmunk Plasma Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		"Nerve Gas"
+	gun -11 -28
+		angle -10
+	gun 11 -28
+		angle 10
+	gun -17 -19.5
+		angle -20
+	gun 17 -19.5
+		angle 20
+	gun -5.5 -33
+	gun 5.5 -33
+
+ship "Clipper" "Clipper (Pirate)"
+	add attributes
+		"self destruct" 0.1
+		"drag" .1
+		"mass" -50
+		"cost" -600000
+	outfits
+		"Heavy Blaster" 3
+		"RT-I Radiothermal"
+		"Supercapacitor"
+		"D67-TM Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		"Nerve Gas"
+	gun -21.5 -18
+		angle -6
+	gun 21.5 -18
+	gun -11 -8.5
+
+ship "Modified Argosy" "Modified Argosy (Pirate)"
+	add attributes
+		"self destruct" .1
+		"drag" .5
+		"heat dissipation" -0.25
+		"cost" -1200000
+	outfits
+		"Twin Modified Blaster" 2
+		"Gatling Gun" 2
+		"Gatling Turret"
+		"Gatling Gun Ammo" 9000
+		"Bullet Boxes" 2
+		"Heavy Anti-Missile Turret"
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator"
+		"Brig"
+		"Laser Rifle" 5
+		"X1100 Ion Reverse Thruster"
+		"X3700 Ion Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		"Nerve Gas"
+	gun -22 -37 "Gatling Gun"
+	gun 22.5 -37 "Gatling Gun"
+	gun -22 -37 "Twin Modified Blaster"
+	gun 22.5 -37 "Twin Modified Blaster"
+		angle 16
+	turret 0 -12.5
+	turret 0 9.5
+
+ship "Osprey" "Osprey (Pirate)"
+	add attributes
+		"self destruct" .2
+		"drag" .1
+		"cost" -2200000
+	outfits
+		"Torpedo Launcher"
+		"Torpedo" 30
+		"Meteor Missile Launcher"
+		"Meteor Missile" 30
+		"Heavy Rocket Launcher"
+		"Heavy Rocket" 20
+		"Sidewinder Missile Launcher"
+		"Sidewinder Missile" 45
+		"Javelin Turret"
+		"Javelin" 400
+		"Heavy Anti-Missile Turret"
+		"Breeder Reactor"
+		"LP036a Battery Pack"
+		"Supercapacitor" 3
+		"D41-HY Shield Generator"
+		"Water Coolant System"
+		"Tactical Scanner"
+		"Outfits Expansion"
+		"Laser Rifle" 3
+		"A520 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		"Nerve Gas"
+	gun -9.5 -95.5
+	gun 9.5 -95.5
+	gun -25 -49.5
+	gun 25 -49.5
+	turret -15.5 -12
+		arc -45 45
+	turret 15.5 -12
+		arc -45 45
+
+ship "Bastion" "Bastion (Pirate)"
+	add attributes
+		"cost" -2500000
+		"heat dissipation" -.2
+	outfits
+		"Plasma Cannon" 2
+		"Gatling Gun" 2
+		"Gatling Turret" 2
+		"Gatling Gun Ammo" 12000
+		"Bullet Boxes" 2
+		"Heavy Anti-Missile Turret"
+		"S3 Thermionic"
+		"nGVF-BB Fuel Cell"
+		"D67-TM Shield Generator"
+		"LP144a Battery Pack"
+		"Water Coolant System"
+		"Nerve Gas" 9
+		"Tactical Scanner"
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+	turret "Heavy Anti-Missile Turret"
+	turret "Gatling Turret"
+		arc -45 45
+	turret "Gatling Turret"
+		arc -45 45
+	gun "Plasma Cannon"
+		angle -1
+	gun "Gatling Gun"
+		angle 1
+	gun "Plasma Cannon"
+	gun "Gatling Gun"
+
+ship "Falcon" "Falcon (Pirate)"
+	add attributes
+		"cost" -8000000
+		"drag" 5
+		"heat dissipation" -.1
+		"mass" 300
+		"cargo space" 100
+		"bunks" 20
+		"required crew" 10
+		"turret turn multiplier" -0.5
+	outfits
+		"Plasma Cannon"
+		"Gatling Gun"
+		"Gatling Gun Ammo" 12000
+		"Heavy Rocket Launcher" 2
+		"Heavy Rocket" 40
+		"Gatling Turret" 3
+		"Heavy Anti-Missile Turret"
+		"Breeder Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Nerve Gas" 15
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		"Brig"

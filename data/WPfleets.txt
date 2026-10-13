@@ -1,0 +1,210 @@
+fleet "Small Southern Pirates"
+	government "Pirate"
+	names "pirate"
+	cargo 1
+	personality
+		disables plunders harvests getaway
+	variant 8
+		"Sparrow (Pirate)"
+	variant 3
+		"Hawk (Pirate)"
+	variant 2
+		"Hawk (Pirate)"
+	variant 2
+		"Hawk (Pirate)"
+	variant 5
+		"Fury (Pirate)"
+	variant 4
+		"Fury (Pirate)"
+	variant 1
+		"Fury (Pirate)"
+	variant 1
+		"Fury (Pirate)"
+	variant 1
+		"Fury (Pirate)"
+	variant 1
+		"Fury (Pirate)"
+	variant 4
+		"Sparrow (Pirate)" 2
+	variant 1
+		"Hawk (Pirate)"
+		"Sparrow (Pirate)"
+	variant 1
+		"Hawk (Pirate)"
+		"Sparrow (Pirate)"
+	variant 1
+		"Fury (Pirate)" 3
+	variant 1
+		"Fury (Pirate)" 2
+	variant 1
+		"Fury (Pirate)" 2
+	variant 1
+		"Fury (Pirate)"
+		"Hawk (Pirate)"
+	variant 1
+		"Hawk (Pirate)"
+		"Fury (Pirate)"
+		"Sparrow (Pirate)"
+	variant 1
+		"Hawk (Pirate)"
+		"Fury (Pirate)"
+		"Sparrow (Pirate)"
+	variant 1
+		"Sparrow (Pirate)" 3
+	variant 1
+		"Fury (Pirate)"
+		"Sparrow (Pirate)"
+	variant 1
+		"Hawk (Pirate)" 2
+	variant 1
+		"Hawk (Pirate)" 2
+	variant 2
+		"Clipper (Pirate)"
+	variant 1
+		"Clipper (Pirate)"
+	variant 1
+		"Clipper (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+	variant 3
+		"Scrapper"
+	variant 2
+		"Scrapper (Minimal)"
+	variant 1
+		"Scrapper (Mod Blaster)"
+	variant 2
+		"Scrapper" 2
+	variant 2
+		"Scrapper (Minimal)" 2
+	variant 1
+		"Scrapper"
+		"Sparrow (Pirate)"
+	variant 1
+		"Sparrow (Pirate)"
+		"Scrapper (Minimal)"
+	variant 1
+		"Scrapper"
+
+fleet "Large Southern Pirates"
+	government "Pirate"
+	names "pirate"
+	cargo 1
+	personality
+		plunders harvests getaway
+	variant 2
+		"Sparrow (Pirate)" 4
+	variant 1
+		"Sparrow (Pirate)" 3
+	variant 5
+		"Modified Argosy (Pirate)"
+	variant 3
+		"Modified Argosy (Pirate)"
+	variant 2
+		"Modified Argosy (Pirate)"
+	variant 2
+		"Modified Argosy (Pirate)"
+	variant 2
+		"Modified Argosy (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+	variant 4
+		"Clipper (Pirate)"
+	variant 2
+		"Clipper (Pirate)"
+	variant 2
+		"Clipper (Pirate)"
+	variant 1
+		"Bastion (Pirate)"
+		"Fury (Pirate)"
+	variant 1
+		"Bastion (Pirate)"
+		"Sparrow (Pirate)"
+	variant 1
+		"Osprey (Pirate)"
+	variant 2
+		"Clipper (Pirate)"
+		"Hawk (Pirate)"
+	variant 1
+		"Clipper (Pirate)"
+		"Hawk (Pirate)"
+	variant 2
+		"Hawk (Pirate)"
+		"Sparrow (Pirate)" 3
+	variant 2
+		"Fury (Pirate)"
+		"Sparrow (Pirate)" 3
+	variant 1
+		"Clipper (Pirate)"
+		"Hawk (Pirate)"
+	variant 1
+		"Hawk (Pirate)"
+		"Fury (Pirate)" 2
+	variant 1
+		"Fury (Pirate)"
+		"Fury (Pirate)" 2
+	variant 3
+		"Modified Argosy (Pirate)"
+		"Hawk (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+		"Hawk (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+		"Hawk (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+		"Hawk (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+		"Hawk (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+		"Sparrow (Pirate)" 2
+	variant 1
+		"Modified Argosy (Pirate)"
+		"Sparrow (Pirate)" 2
+	variant 1
+		"Modified Argosy (Pirate)"
+		"Sparrow (Pirate)" 2
+	variant 1
+		"Modified Argosy (Pirate)" 2
+	variant 1
+		"Fury (Pirate)" 2
+		"Modified Argosy (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+		"Sparrow (Pirate)"
+	variant 1
+		"Modified Argosy (Pirate)"
+		"Hawk (Pirate)"
+		"Sparrow (Pirate)"
+	variant 4
+		"Bastion (Pirate)"
+	variant 2
+		"Bastion (Pirate)"
+	variant 2
+		"Falcon (Pirate)"
+	variant 1
+		"Bastion (Pirate)"
+		"Sparrow (Pirate)" 6
+	variant 1
+		"Bastion (Pirate)"
+		"Fury (Pirate)" 5
+	variant 1
+		"Bastion (Pirate)"
+		"Hawk (Pirate)" 6
+	variant 2
+		"Bastion (Pirate)"
+		"Sparrow (Pirate)" 2
+		"Fury (Pirate)" 2
+		"Hawk (Pirate)" 2
